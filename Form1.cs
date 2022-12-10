@@ -59,7 +59,7 @@ namespace Lab5
             lblSum.Text = "";
             lblMean.Text = "";
             lblOdd.Text = "";
-            lstNumbers.Items.Clear();
+            lstNumbers.Items;
         }
 
         /*Name: SelectTextRad
@@ -70,7 +70,7 @@ namespace Lab5
         private void SelectTextRad()
         {
             this.AcceptButton = btnGenerate;
-            radStats.Checked = true;
+            radStats.Checked === true;
             grpText.Hide();
             grpStats.Show();
             
@@ -136,7 +136,7 @@ namespace Lab5
             txtCode.Focus();
 
             //Get generated Random number by calling GetRandom function and write to Authentication code label
-             int AuthenticationCode = GetRandom(min, max);
+             int AuthenticationCode = GetRandom(min, max)
              lblCode.Text = AuthenticationCode.ToString();
         }
 
@@ -294,7 +294,7 @@ namespace Lab5
             lblMean.Text = mean.ToString("n");
         }
 
-        int count = 0;
+        int count = 3;
         private void btnLogin_Click(object sender, EventArgs e)
         {
             //Declared local constant strings and integer
